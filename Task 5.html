@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+</head>
+<style>
+    table, tr, td{
+        border:1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <form style="width=100%;"> 
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Re-enter Password</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <table border="1px"; style="width: 100%;">
+                        <tr>
+                            <td>
+                                <input type="radio" name="gender" id="gender">
+                                <label for="gender">Male</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="gender" id="gender">
+                                <lable for="gender">Female</lable>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="gender" id="gender">
+                                <label for="gender">Attack Helicoptor</label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Pnone Number</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select name="country" id="country">
+                        <option value="Choose your country">Choose your country:</option>
+                        <option value="Ind">India</option>
+                        <option value="us">USA</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="jp">Japan</option>
+                        <option value="china">China</option>
+                        <option value="rus">Russia</option>
+                        <option value="france">France</option>
+                        <option value="italy">Italy</option>
+                        <option value="greece">Greece</option>
+                        <option value="rome">Rome</option>
+                        <option value="aus">Australia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Languages Known</td>
+                <td>
+                    <input type="checkbox" name="lang" id="eng">
+                    <label for="eng">English</label>
+                    <input type="checkbox" name="lang" id="hin">
+                    <label for="hin">Hindi</label>
+                    <input type="checkbox" name="lang" id="kan">
+                    <label for="kan">Kannada</label>
+                    <input type="checkbox" name="lang" id="mal">
+                    <label for="mal">Malayalam</label>
+                    <input type="checkbox" name="lang" id="tel">
+                    <label for="tel">Telugu</label>
+                    <input type="checkbox" name="lang" id="tam">
+                    <label for="tam">Tamil</label>
+                    <input type="checkbox" name="lang" id="jap">
+                    <label for="jap">Japan</label>
+                    <input type="checkbox" name="lang" id="kor">
+                    <label for="kor">Korea</label>
+                    <input type="checkbox" name="lang" id="rus">
+                    <label for="rus">Russian</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="delcaration">
+                    Hereby I declare all the given details is true
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right;">
+                log in to 
+                <a href="https://ethnus.com" target="_blank">Ethnus</a>
+                website
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

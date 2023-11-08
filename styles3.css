@@ -1,0 +1,32 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 80%;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+#header-row {
+    background-color: #0fbd83;
+    text-align: left;
+    color: aliceblue;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    border: 0px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+tr:nth-of-type(even){
+    background-color: lightgrey;
+}
+
+tr:nth-of-type(odd){
+    background-color: white;
+}

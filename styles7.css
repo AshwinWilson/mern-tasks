@@ -1,0 +1,80 @@
+body
+{
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(179, 46, 101);
+    justify-content: center;
+}
+
+.container
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    margin: 3% 18% 3% 18%;
+    height: 600px;
+    line-height: 35px;
+}
+
+.table-content
+{
+    display: grid;
+    font-size: 20px;
+    justify-content: baseline;
+    
+}
+
+tbody
+{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-content .col-1
+{
+    padding: 10px 150px 10px 5px;
+}
+
+input
+{
+    padding: 5px;
+}
+
+textarea
+{
+    overflow: scroll;
+    height: 50px;
+    width: 200px;
+    max-width: 400px;
+    max-height: 100px;
+}
+
+#register-button button
+{
+    text-align: center;
+    width: 100%;
+    /*padding: 27px 0;*/
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 40px;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    border: 0;
+    border-radius: 15px;
+    transition: 0.1s;
+}
+
+#register-button button:hover, #register-button button:focus
+{
+    background-color: #e2e2e2;
+}
+
+#register-button button:active
+{
+    background-color: #aaaaaa;
+}
+
+td
+{
+    padding: 0;
+}
